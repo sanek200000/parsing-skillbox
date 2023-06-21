@@ -25,9 +25,8 @@ options.add_argument("--disable-notifications")
 options.add_argument("--disable-popup-blocking")
 options.add_argument(f'user-agent={desired_capabilities}')
 
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()),
-                          options=options,
-                          desired_capabilities=desired_capabilities)
+s = Service(executable_path='/home/sanek/PycharmProjects/parsing-skillbox/drivers/chromedriver')
+driver = webdriver.Chrome(service=s, options=options,)
 
 
 def get_m3u8_urls(url):
@@ -44,8 +43,7 @@ def get_m3u8_urls(url):
                 or "Network.webSocket" in network_log["method"]):
             if 'request' in network_log["params"]:
                 if 'url' in network_log["params"]["request"]:
-                    if 'm3u8' in network_log["params"]["request"]["url"] or '.mp4' in network_log["params"]["request"][
-                        "url"]:
+                    if 'm3u8' in network_log["params"]["request"]["url"] or '.mp4' in network_log["params"]["request"]["url"]:
                         if "blob" not in network_log["params"]["request"]["url"]:
                             if '.m3u8' in network_log["params"]["request"]["url"]:
                                 url_list.append(network_log["params"]["request"]["url"])
