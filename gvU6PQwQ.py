@@ -15,6 +15,8 @@ import requests
 def parse_m3u8(_url):
 	urldir = os.path.dirname(_url)
 	playlist = requests.get(_url).text
+	print('urldir: ', urldir)
+	print(playlist)
 
 	# парсим секции #EXT-X-KEY, складываем в список [файл, метод шифрования, url к ключу]
 	chunks = []
@@ -71,9 +73,11 @@ def download_m3u8(job, output=None):
 			file_num = 1
 			for chunk in chunks:
 				file_name = str(file_num).zfill(5) + " " + chunk['file_name']
+				print(file_name)
 				file_num += 1
 				# скачиваем как есть или расшифровываем
 				if chunk['key']:
+					print(chunk['key'])
 					key = chunk['key']
 					key = key.encode()
 					file_in = urlopen(chunk['file_url'])
@@ -83,6 +87,7 @@ def download_m3u8(job, output=None):
 					cipher = AES.new(key, AES.MODE_CBC, iv=iv)  # Setup cipher
 					data = unpad(cipher.decrypt(ciphered_data), AES.block_size) # Decrypt and then up-pad the result
 				else:
+					print(chunk['key'])
 					data = requests.get(chunk['file_url']).content
 				# пишем данные в файл
 				if data:
@@ -118,6 +123,7 @@ def download_m3u8(job, output=None):
 
 
 if __name__ == '__main__':
-	url = sys.argv[1]
+	# url = sys.argv[1]
+	url = 'https://cdn-g-skb-m7.boomstream.com/vod/hash:4fb2ef034568874f4bd2812ee0f49d2d/id:12985.14487.760926.39654069.75373.hls/time:0/data:eyJ2ZXJzaW9uIjoiMS4yLjg1IiwidXNlX2RpcmVjdF9saW5rcyI6InllcyIsImlzX2VuY3J5cHQiOiJ5ZXMifQ==/m57/2022/08/05/gE3hbXDp.mp4/chunklist.m3u8'
 	result = parse_m3u8(url)
-	sys.stdout.buffer.write(download_m3u8(result))
+	# sys.stdout.buffer.write(download_m3u8(result))
