@@ -43,15 +43,19 @@ def save_page(url, driver):
 
 if __name__ == '__main__':
     url = 'https://go.skillbox.ru/profession/professional-retraining-python-developer'
-    url2 = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/final-examination-dpo-python-developer/154a84bc-0f6a-4f3e-8663-30ff658b66b1/homework'
+    # url = 'https://habr.com/ru/companies/otus/articles/596071/'
+    url2 = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/dpo-python-basic/689d95a9-8ea3-4666-9bb3-0de0e303213a/videolesson'
     options = webdriver.ChromeOptions()
     options.add_argument('--incognito')
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
 
-    s = Service(
-        executable_path='C:\\Users\\heist\\PycharmProjects\\parsing_skillbox\\chromedriver_win32\\chromedriver.exe')
+    try:
+        q = 1
+    except Exception as ex:
+        print('ex = ', ex)
 
+    s = Service(executable_path='./drivers/chromedriver.exe')
     driver = webdriver.Chrome(service=s, options=options)
 
     stealth(driver,
@@ -66,11 +70,12 @@ if __name__ == '__main__':
     try:
         driver.maximize_window()
         driver.get(url)
-        sleep(2)
+        sleep(5)
+        driver.save_screenshot('screenshot.png')
 
         '''аунтетификация'''
-        authentication(driver)
-        sleep(4)
+        # authentication(driver)
+        # sleep(4)
 
         '''dump cookies'''
         # pickle.dump(driver.get_cookies(), open('cookies', 'wb'))
@@ -83,7 +88,8 @@ if __name__ == '__main__':
         # sleep(2)
 
         # goto video
-        driver.get(url2)
+        # driver.get(url2)
+        # sleep(5)
 
         # link = input('Введите blob адрес видео: ')
         # r = requests.get(link)
@@ -91,10 +97,11 @@ if __name__ == '__main__':
         # with open('video.html', 'wb', encoding='utf-8') as f:
         #    f.write(r.content)
 
-        save_page(url2, driver)
+        # save_page(url2, driver)
 
     except Exception as ex:
         print(ex)
     finally:
         driver.close()
         driver.quit()
+        print('Done! '*10)
