@@ -4,12 +4,20 @@ import sys
 import tempfile
 import subprocess
 from urllib.request import urlopen
-from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 from Crypto.Protocol.KDF import PBKDF2
 import requests
+from Crypto.Util.Padding import pad
+from Crypto.Cipher import AES
+import time
 
-def parse_m3u8(_url):
+def AESDecrypt(cipher_text, key, iv):
+    cipher_text = pad(data_to_pad=cipher_text, block_size=AES.block_size)
+    aes = AES.new(key=key, mode=AES.MODE_CBC, iv=key)
+    cipher_text = aes.decrypt(cipher_text)
+    return cipher_text
+
+def parse_m3u8(_url, key):
 	urldir = os.path.dirname(_url)
 	dirname = 'temp_' + str(urldir).split(r'/')[-1].split('.mp4')[0]
 	playlist = requests.get(_url).text.split('\n')
@@ -20,6 +28,9 @@ def parse_m3u8(_url):
 	if not os.path.exists(dirname):
 		os.mkdir(dirname)
 
+	n = len(chunklist)
+	start = time.time()
+	size = 0
 	media_files = []
 	for chunk in chunklist:
 		filename = dirname + '/' + chunk.split('/')[-1]
@@ -28,8 +39,15 @@ def parse_m3u8(_url):
 
 		if not os.path.exists(filename):
 			r = requests.get(chunk, allow_redirects=True)
-			with open(filename, 'wb') as file:
-				file.write(r.content)
+			data = r.content
+			data = AESDecrypt(data, key=key, iv=key)
+			size += len(data)
+			with open("reusult.mp4", "ab") as f:
+				f.write(data)
+			print(f"\r Download Progress({n})，Downloaded:{size / 1024 / 1024:.2f}MB，Download time consumed:{time.time() - start:.2f}s", end=" ")
+
+			# with open(filename, 'wb') as file:
+			# 	file.write(r.content)
 
 	return media_files
 
@@ -40,11 +58,12 @@ def download_m3u8(result):
 
 if __name__ == '__main__':
 	# url = sys.argv[1]
-	url = 'https://cdn-g-skb-m7.boomstream.com/vod/hash:4fb2ef034568874f4bd2812ee0f49d2d/id:12985.14487.760926.39654069.75373.hls/time:0/data:eyJ2ZXJzaW9uIjoiMS4yLjg1IiwidXNlX2RpcmVjdF9saW5rcyI6InllcyIsImlzX2VuY3J5cHQiOiJ5ZXMifQ==/m57/2022/08/05/gE3hbXDp.mp4/chunklist.m3u8'
+	url = 'https://cdn-g-skb-m4.boomstream.com/vod/hash:e8f22940ae47e89857332a0b898957b2/id:12985.14487.760926.39654071.75377.hls/time:0/data:eyJ2ZXJzaW9uIjoiMS4yLjg1IiwidXNlX2RpcmVjdF9saW5rcyI6InllcyIsImlzX2VuY3J5cHQiOiJ5ZXMifQ==/m65/2022/08/05/omvuSbz8.mp4/chunklist.m3u8'
 	password = '17bb96ba-3220-4874-b609-2ea245887c63'
-	key = PBKDF2(password, b'...', dkLen=128)
+	key = PBKDF2(password, b'r4kIvQ47FFUWgqoP', dkLen=128)
 	blob = 'blob:https://go.skillbox.ru/17bb96ba-3220-4874-b609-2ea245887c63'
+	key = b'r4kIvQ47FFUWgqoP'
 	print(key)
 
-	result = parse_m3u8(url)
+	result = parse_m3u8(url, key)
 	# download_m3u8(result)
