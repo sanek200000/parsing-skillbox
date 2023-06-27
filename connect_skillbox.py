@@ -1,15 +1,11 @@
 import os
-import pickle
 from time import sleep
 from dotenv import load_dotenv
-import requests
 import gzip
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-
 from selenium_stealth import stealth
 
 from parse_m3u8 import get_chunk_m3u8, parse_m3u8
@@ -92,6 +88,10 @@ def save_video(driver, lesson_path, url) -> None:
     except Exception:
         is_video = None
 
+    if os.path.exists(video_path):
+        print(f'Видео {video_path} уже существует')
+        is_video = None
+
     print('is_video = ', is_video)
     if is_video:
         # driver.get(url)
@@ -105,7 +105,7 @@ def save_video(driver, lesson_path, url) -> None:
                 key = gzip.decompress(key).decode('utf-8').encode('utf-8')
                 print(f'Ключик: {key}')
 
-        if chunklist and key and not os.path.exists(video_path):
+        if chunklist and key:
             res = parse_m3u8(chunklist, key, video_path)
             print(f'\nПуть к видео урока: {res}')
 

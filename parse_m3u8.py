@@ -25,7 +25,7 @@ def parse_m3u8(_url, key, video_path) -> str:
     playlist = requests.get(_url).text.split('\n')
 
     chunklist = [line.strip() for line in playlist if line.startswith('https')]
-    print(chunklist)
+    # print(chunklist)
 
     if not os.path.exists(dirname):
         os.mkdir(dirname)

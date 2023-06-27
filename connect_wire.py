@@ -1,12 +1,7 @@
-from requests import get
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 from seleniumwire import webdriver
-from selenium_stealth import stealth
 from time import sleep
-from connect_skillbox import authentication
-import requests
 
 
 def wire_connection(url):

@@ -40,7 +40,10 @@ def add_dir(rpath: str, dirname: str, num=None) -> str:
         path = rpath + dirname + '/'
 
     if not os.path.exists(path):
-        os.mkdir(path)
+        try:
+            os.mkdir(path)
+        except:
+            return add_dir(rpath, 'ERROR_переназови', num)
         print(f'Создана папка: {path}')
 
     return path
@@ -56,7 +59,10 @@ def clear_module_name(module_name: str) -> str:
     Returns:
         str: _description_
     """
-    module_name = regex.sub(r'[^\pL\p{Space}-]', '', module_name)
+    try:
+        module_name = regex.sub(r'[^\pL\p{Space}-]', '', module_name)
+    except:
+        module_name = 'ERROR_переназови'
     print('Очищеное имя модуля: ' + f'{module_name}'.upper())
 
     return module_name

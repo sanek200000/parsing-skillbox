@@ -1,10 +1,10 @@
-from connect_skillbox import connection, authentication
+from connect_skillbox import authentication
 from work_with_files import json_to_dict, clear_module_name, add_dir, make_url, get_lessons_list, get_lessons
 from connect_wire import wire_connection
 
 if __name__ == '__main__':
     base_url = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/'
-    module_json = './trees/Модуль Python-фреймворк Django.json'
+    module_json = './trees/Модуль Python Basic.json'
     source_path = r"./sources/"
 
     try:
