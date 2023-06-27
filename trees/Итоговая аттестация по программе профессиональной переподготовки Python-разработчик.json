@@ -1,0 +1,79 @@
+{
+    "id": "68a3d73b-c7af-4603-947b-24fa55e06cd9",
+    "name": "Итоговая аттестация по программе профессиональной переподготовки «Python-разработчик»",
+    "slug": "final-examination-dpo-python-developer",
+    "gitlab_enabled": true,
+    "is_diploma": false,
+    "topics": [
+        {
+            "id": "58c33c14-fd8c-4088-9611-fd6d16ea8bb9",
+            "name": "Итоговая аттестация по программе профессиональной переподготовки «Python-разработчик»",
+            "homeworks": [
+                {
+                    "id": "154a84bc-0f6a-4f3e-8663-30ff658b66b1",
+                    "name": "Описание итоговой аттестации",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 3,
+                    "_order": 1,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-06-19T17:37:26.949630Z",
+                    "last_checked_at": "2023-06-21T22:26:27.349608Z",
+                    "last_teacher_messaged_at": "2023-06-21T22:26:27.349608Z",
+                    "last_student_messaged_at": "2023-06-19T17:37:26.949630Z",
+                    "last_visited_at": "2023-06-23T11:50:02.594748Z",
+                    "user_status": "fail",
+                    "number": 1
+                }
+            ],
+            "tests": [],
+            "videolessons": [],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 1,
+            "number": 1,
+            "release_date": null
+        },
+        {
+            "id": "0f436d62-0420-4cca-851a-79814f814fcd",
+            "name": "Получение диплома о дополнительном профессиональном образовании",
+            "homeworks": [
+                {
+                    "id": "7e248351-59ce-4211-942b-ffd8d7838587",
+                    "name": "Инструкции",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "homework",
+                    "last_sent_at": null,
+                    "last_checked_at": null,
+                    "last_teacher_messaged_at": null,
+                    "last_student_messaged_at": null,
+                    "last_visited_at": null,
+                    "user_status": null,
+                    "number": 1
+                }
+            ],
+            "tests": [],
+            "videolessons": [],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 2,
+            "number": 2,
+            "release_date": null
+        }
+    ]
+}
