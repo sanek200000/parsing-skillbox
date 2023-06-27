@@ -4,7 +4,7 @@ from connect_wire import wire_connection
 
 if __name__ == '__main__':
     base_url = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/'
-    module_json = './trees/Модуль Python Basic.json'
+    module_json = './trees/Модуль Система контроля версий Git.json'
     source_path = r"./sources/"
 
     try:

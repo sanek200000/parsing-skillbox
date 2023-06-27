@@ -32,17 +32,19 @@ def authentication(driver):
     sleep(10)
 
 
-def save_page(url, driver, path):
+def save_page(url, driver, path) -> None:
     driver.get(url)
     sleep(10)
 
-    # Save page to html
     filename = path + 'index.html'
-    with open(filename, 'w', encoding='utf-8') as file:
-        file.write(driver.page_source)
-        print(f'Страница сохранена в файл {filename}')
+    if not os.path.exists(filename):
+        with open(filename, 'w', encoding='utf-8') as file:
+            file.write(driver.page_source)
+            print(
+                f'Страница сохранена в файл {filename}')
 
-    # Take screenshot
+
+def take_screenshot(driver, path) -> None:
     height = driver.execute_script(
         "return Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);")
     print('Высота страницы:', height)
@@ -94,9 +96,6 @@ def save_video(driver, lesson_path, url) -> None:
 
     print('is_video = ', is_video)
     if is_video:
-        # driver.get(url)
-        # sleep(10)
-
         for req in driver.requests:
             if 'playlist.m3u8' in req.url:
                 chunklist = get_chunk_m3u8(req)

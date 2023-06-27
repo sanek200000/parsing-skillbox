@@ -1,7 +1,7 @@
 import json
 import os
 import regex
-from connect_skillbox import save_page, save_video, save_additional_materials
+from connect_skillbox import save_page, save_video, save_additional_materials, take_screenshot
 
 
 def json_to_dict(dictjson: str) -> dict:
@@ -106,7 +106,7 @@ def get_lessons_list(topic: dict) -> list:
     return res
 
 
-def get_lessons(lessons_list, slug_url, module_path, driver):
+def get_lessons(lessons_list, slug_url, module_path, driver) -> None:
     for lesson in lessons_list:
         id = lesson.get('id')
         number = lesson.get('number')
@@ -122,13 +122,14 @@ def get_lessons(lessons_list, slug_url, module_path, driver):
             url_name = f'{id}/{lesson_type}'
             lesson_url = make_url(slug_url, url_name)
 
-            # Сохраняем страницу и делаем скриншот
+            # Сохраняем страницу
             save_page(lesson_url, driver, lesson_path)
+
+            # Делаем скриншот
+            take_screenshot(driver, lesson_path)
 
             # Качаем видео, если оно есть на странице
             save_video(driver, lesson_path, lesson_url)
 
             # Сохраняем доп.материалы, если они есть
             save_additional_materials()
-
-    pass

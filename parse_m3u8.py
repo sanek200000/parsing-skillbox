@@ -1,9 +1,5 @@
-import re
 import os.path
-import sys
-import tempfile
-import subprocess
-from urllib.request import urlopen
+import shutil
 from Crypto.Util.Padding import unpad
 from Crypto.Protocol.KDF import PBKDF2
 import requests
@@ -53,6 +49,9 @@ def parse_m3u8(_url, key, video_path) -> str:
             # with open(filename, 'wb') as file:
             # 	file.write(r.content)
 
+    if os.path.exists(dirname):
+        shutil.rmtree(dirname, ignore_errors=True)
+
     return video_path
 
 
@@ -74,5 +73,5 @@ if __name__ == '__main__':
     key = b'r4kIvQ47FFUWgqoP'
     print(key)
 
-    result = parse_m3u8(url, key)
+    result = parse_m3u8(url, key, './videolesson.mp4')
     # download_m3u8(result)
