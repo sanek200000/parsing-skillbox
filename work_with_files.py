@@ -2,6 +2,7 @@ import json
 import os
 import regex
 from connect_skillbox import save_page, save_video, save_additional_materials, take_screenshot
+from time import sleep
 
 
 def json_to_dict(dictjson: str) -> dict:
@@ -60,7 +61,7 @@ def clear_module_name(module_name: str) -> str:
         str: _description_
     """
     try:
-        module_name = regex.sub(r'[^\pL\p{Space}-]', '', module_name)
+        module_name = regex.sub(r'[^\pL\p{Space}-]', '', module_name[:50])
     except:
         module_name = 'ERROR_переназови'
     print('Очищеное имя модуля: ' + f'{module_name}'.upper())
@@ -122,14 +123,24 @@ def get_lessons(lessons_list, slug_url, module_path, driver) -> None:
             url_name = f'{id}/{lesson_type}'
             lesson_url = make_url(slug_url, url_name)
 
+            # Переходим на страницу, ждем 10 сек.
+            while True:
+                try:
+                    print(f'driver.get({lesson_url})')
+                    driver.get(lesson_url)
+                    sleep(10)
+                    break
+                except Exception as ex:
+                    print('!'*100, ex, sep='\n')
+
             # Сохраняем страницу
-            save_page(lesson_url, driver, lesson_path)
+            # save_page(driver, lesson_path)
 
             # Делаем скриншот
             take_screenshot(driver, lesson_path)
 
             # Качаем видео, если оно есть на странице
-            save_video(driver, lesson_path, lesson_url)
+            # save_video(driver, lesson_path, lesson_url)
 
             # Сохраняем доп.материалы, если они есть
-            save_additional_materials()
+            # save_additional_materials(driver, lesson_path, lesson_url)

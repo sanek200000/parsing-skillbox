@@ -2,12 +2,18 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from seleniumwire import webdriver
 from time import sleep
+import os
 
 
 def wire_connection(url):
     options = webdriver.ChromeOptions()
-    # options.add_argument("--headless")
-    options.add_argument('--incognito')
+    options.add_argument("--headless=new")
+    # options.add_argument('--incognito')
+    
+    #path = 'C:\\Users\\heist\\PycharmProjects\\parsing_skillbox\\sources\\Итоговая аттестация по программе профессиональной \\1.Итоговая аттестация по программе профессиональной \\1.Описание итоговой аттестации\\'
+    #options.add_experimental_option("prefs", {"download.default_directory": f'{path}'})
+
+    options.add_argument(f'user-data-dir={os.getcwd()}/selenium')
     options.add_argument("start-maximized")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)

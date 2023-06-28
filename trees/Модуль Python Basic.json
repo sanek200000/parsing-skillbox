@@ -6,6 +6,1148 @@
     "is_diploma": false,
     "topics": [
         {
+            "id": "c4cf963a-1ca5-4d83-a72a-43a87f265e86",
+            "name": "Python intro",
+            "homeworks": [],
+            "tests": [
+                {
+                    "id": "31ad8f03-eee4-40b5-94a9-9471fd8c6cf9",
+                    "name": "Практическое задание",
+                    "status": "active",
+                    "video_duration": null,
+                    "materials_count": 0,
+                    "lesson_type": "test",
+                    "user_status": "done",
+                    "_order": 5,
+                    "was_updated": false,
+                    "passing_threshold": null,
+                    "latest_result_count": {
+                        "wrong_count": 0,
+                        "correct_count": 4
+                    },
+                    "number": 5,
+                    "last_visited_at": "2023-06-27T18:10:45.275491Z"
+                }
+            ],
+            "videolessons": [
+                {
+                    "id": "37f90f03-52a3-4aa4-bf51-d18ccb990efa",
+                    "name": "Особенности работы с print",
+                    "status": "active",
+                    "video_duration": 115,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/jVPOA4j1-a2.jpg",
+                    "materials_count": 0,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:10:55.027516Z",
+                    "number": 4,
+                    "image": null
+                },
+                {
+                    "id": "3de7f7c1-3275-4c28-9a3e-fb5b7d3a16af",
+                    "name": "Знакомство с профессией Python-разработчик",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 6,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:11:05.426407Z",
+                    "number": 6,
+                    "image": null
+                },
+                {
+                    "id": "60d97316-0c04-4c95-84c6-d3e8ff0e7ca4",
+                    "name": "Знакомство с онлайн-редактором. Первая программа",
+                    "status": "active",
+                    "video_duration": 318,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/hMnu6v7J-a2.jpg",
+                    "materials_count": 2,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:11:15.588576Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "689d95a9-8ea3-4666-9bb3-0de0e303213a",
+                    "name": "Что значит программировать",
+                    "status": "active",
+                    "video_duration": 284,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/avvBk9eG-a3.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:11:27.162911Z",
+                    "number": 1,
+                    "image": null
+                },
+                {
+                    "id": "a567b61c-43cb-4bbc-bb61-cc18bbc10ecb",
+                    "name": "Первые ошибки",
+                    "status": "active",
+                    "video_duration": 190,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/GJj4Yrzo-a4.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:11:38.031034Z",
+                    "number": 3,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 1,
+            "number": 1,
+            "release_date": null
+        },
+        {
+            "id": "391b5c8a-4979-42c9-9b77-9e1b48c94c10",
+            "name": "Основы языка",
+            "homeworks": [],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "486cf8ea-c796-409c-8a12-f8154e530c50",
+                    "name": "Практическая работа. Строки и конкатенация",
+                    "status": "active",
+                    "video_duration": 234,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/R00PArI4-a2.jpg",
+                    "materials_count": 1,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:11:49.381750Z",
+                    "number": 4,
+                    "image": null
+                },
+                {
+                    "id": "ac6dde68-86b3-42ef-a386-7f39088f8cc7",
+                    "name": "Переменные",
+                    "status": "active",
+                    "video_duration": 377,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/HhJkI0YP-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:12:00.148164Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "c73fed7b-5994-4811-9432-77d5d42bf082",
+                    "name": "Практическая работа. Особенности работы с переменными",
+                    "status": "active",
+                    "video_duration": 281,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/gwg6v1Ed-a2.jpg",
+                    "materials_count": 0,
+                    "_order": 6,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:12:11.265369Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "d612663c-f29d-4b63-95d4-f013178b9979",
+                    "name": "Практическая работа. Оператор ввода input",
+                    "status": "active",
+                    "video_duration": 317,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/VE2To3Wj-a2.jpg",
+                    "materials_count": 1,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:12:21.955487Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "f28946a6-6884-4c6b-8478-ac79f13c3ff1",
+                    "name": "Знакомимся с основными элементами Python",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:12:32.627580Z",
+                    "number": 1,
+                    "image": null
+                }
+            ],
+            "longreads": [
+                {
+                    "id": "48a5d379-f903-4c2a-b179-70355e2b0f69",
+                    "name": "Итоги пройденных тем. Проверьте себя",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 7,
+                    "lesson_type": "longread",
+                    "user_status": "done",
+                    "last_visited_at": "2023-01-04T13:34:32.191683Z",
+                    "number": 6,
+                    "image": null
+                }
+            ],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 2,
+            "number": 2,
+            "release_date": null
+        },
+        {
+            "id": "4630500a-b1a1-4e52-a92f-186cc49e8c20",
+            "name": "Операторы, выражения",
+            "homeworks": [
+                {
+                    "id": "747d308e-11fe-4866-abb0-5233d220357f",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": 194,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/p3sRGGTM-a2.jpg",
+                    "materials_count": 4,
+                    "_order": 7,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-01-06T19:15:43.281679Z",
+                    "last_checked_at": "2023-01-07T08:55:57.553669Z",
+                    "last_teacher_messaged_at": "2023-01-07T08:55:57.553669Z",
+                    "last_student_messaged_at": "2023-01-06T19:19:40.560618Z",
+                    "last_visited_at": "2023-06-27T18:12:54.995121Z",
+                    "user_status": "done",
+                    "number": 7
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "367d5c20-a04b-4b96-83eb-3d7d3526a543",
+                    "name": "Приоритет арифметических операций",
+                    "status": "active",
+                    "video_duration": 177,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/Lg0Pim1t-a2.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:13:05.226892Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "8721ae6f-4d7f-4f7e-8c0d-bc758846a85f",
+                    "name": "Ввод числа с клавиатуры",
+                    "status": "active",
+                    "video_duration": 275,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/L1QeUFxd-a2.jpg",
+                    "materials_count": 1,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:13:16.192455Z",
+                    "number": 4,
+                    "image": null
+                },
+                {
+                    "id": "8b0655e9-51d3-43d9-86ea-7f8fffaa8bf4",
+                    "name": "Разбор домашнего задания",
+                    "status": "active",
+                    "video_duration": 215,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/PSPVHcIY-a3.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:13:27.026719Z",
+                    "number": 1,
+                    "image": null
+                },
+                {
+                    "id": "914d0fc2-809e-4983-9c78-47e28e211b61",
+                    "name": "Деление нацело и с остатком",
+                    "status": "active",
+                    "video_duration": 325,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/tqyo3GcL-a2.jpg",
+                    "materials_count": 1,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:13:37.892968Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "a67ad394-f4fb-48f4-baa3-82ac345cb1fe",
+                    "name": "Сокращённые операторы",
+                    "status": "active",
+                    "video_duration": 197,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/dUCwRLvX-a2.jpg",
+                    "materials_count": 0,
+                    "_order": 6,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:13:49.205949Z",
+                    "number": 6,
+                    "image": null
+                },
+                {
+                    "id": "bb59e5cd-f617-4e64-8fd2-24f17c172eaf",
+                    "name": "Вебинар согласно расписанию текущего потока — 1 ак.ч.",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 8,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:13:59.869696Z",
+                    "number": 8,
+                    "image": null
+                },
+                {
+                    "id": "bc1290a0-206a-46a0-b034-bbef1c32e832",
+                    "name": "Числа и арифметические операции с ними",
+                    "status": "active",
+                    "video_duration": 291,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/QRvjzc4o-a2.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:14:10.308966Z",
+                    "number": 2,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 3,
+            "number": 3,
+            "release_date": null
+        },
+        {
+            "id": "40e846e1-9bb3-4484-aecf-b3d116c99690",
+            "name": "Условный оператор if, ветвления",
+            "homeworks": [
+                {
+                    "id": "88d73905-9961-4a08-9494-638579d67b24",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 5,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-01-25T02:54:18.746177Z",
+                    "last_checked_at": "2023-01-25T13:49:45.466620Z",
+                    "last_teacher_messaged_at": "2023-01-25T13:49:45.466620Z",
+                    "last_student_messaged_at": "2023-01-25T02:54:18.746177Z",
+                    "last_visited_at": "2023-06-27T18:14:22.080310Z",
+                    "user_status": "done",
+                    "number": 5
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "315e9758-c9d4-4988-af5b-26487c8c37ea",
+                    "name": "Условный оператор",
+                    "status": "active",
+                    "video_duration": 559,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/74JlkPEC-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:14:31.933702Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "6c67260d-f85a-40ac-b0c6-d221f2ba6671",
+                    "name": "Полная форма условного оператора if",
+                    "status": "active",
+                    "video_duration": 501,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/qYZlEQqq-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:14:43.189420Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "9ee61fc0-6c64-4d01-a237-6cf71e6ef0b5",
+                    "name": "Разбор домашнего задания",
+                    "status": "active",
+                    "video_duration": 500,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/9vz63Abz-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:14:53.777766Z",
+                    "number": 1,
+                    "image": null
+                },
+                {
+                    "id": "d6de8a06-a14a-49d3-b314-d38af6a5d590",
+                    "name": "Вебинар согласно расписанию текущего потока — 1 ак.ч.",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 6,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:15:05.724677Z",
+                    "number": 6,
+                    "image": null
+                },
+                {
+                    "id": "ef239d22-810b-4f77-8248-0439016e4d81",
+                    "name": "Комментарии",
+                    "status": "active",
+                    "video_duration": 342,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/mXD8gRcR-a2.jpg",
+                    "materials_count": 0,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:15:15.857051Z",
+                    "number": 4,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 4,
+            "number": 4,
+            "release_date": null
+        },
+        {
+            "id": "ef495305-94d9-4b11-ab8a-109ac1713386",
+            "name": "Условный оператор if: продолжение",
+            "homeworks": [
+                {
+                    "id": "a9565ad0-1791-429d-ba3c-7e02950fa872",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 6,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-01-29T19:20:56.457934Z",
+                    "last_checked_at": "2023-01-30T11:12:59.599339Z",
+                    "last_teacher_messaged_at": "2023-01-30T11:12:59.599339Z",
+                    "last_student_messaged_at": "2023-01-29T19:20:56.457934Z",
+                    "last_visited_at": "2023-06-27T18:26:02.555299Z",
+                    "user_status": "done",
+                    "number": 6
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "10cc20e3-6da1-43b3-9db3-6c667cc6a430",
+                    "name": "Использование нескольких логических операторов",
+                    "status": "active",
+                    "video_duration": 415,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/6YFT4QLo-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:26:12.278159Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "5cb784a3-6180-436b-9e99-bf66a1f983c8",
+                    "name": "Вебинар согласно расписанию текущего потока — 1 ак.ч.",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 7,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:26:49.555995Z",
+                    "number": 7,
+                    "image": null
+                },
+                {
+                    "id": "6bcf136a-1b8b-4961-a43c-6b2503975b5c",
+                    "name": "Логические операторы and и or",
+                    "status": "active",
+                    "video_duration": 558,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/3rZYQJlb-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:27:00.575393Z",
+                    "number": 4,
+                    "image": null
+                },
+                {
+                    "id": "79805e90-8f53-4bc1-8219-bad7004c38ec",
+                    "name": "Вложенные условия",
+                    "status": "active",
+                    "video_duration": 455,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/yy5BH9XM-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-02-20T13:41:39.943804Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "d1068fdb-5445-4ac6-aa00-ef6d4e995355",
+                    "name": "Цепочки условий if-elif-else",
+                    "status": "active",
+                    "video_duration": 463,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/yJIL7y4s-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:28:00.248230Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "f1a2eb78-067f-4b4a-9198-12243e1ccd99",
+                    "name": "Разбор домашнего задания",
+                    "status": "active",
+                    "video_duration": 247,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/iWXO2k6I-a2.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:28:28.166213Z",
+                    "number": 1,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 5,
+            "number": 5,
+            "release_date": null
+        },
+        {
+            "id": "4a0a0d11-1eef-469d-82d0-6187212d2a36",
+            "name": "Цикл while",
+            "homeworks": [
+                {
+                    "id": "844f874e-e023-480e-b12c-d082d3829134",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 7,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-02-08T01:37:49.348207Z",
+                    "last_checked_at": "2023-02-08T11:14:46.662446Z",
+                    "last_teacher_messaged_at": "2023-02-08T11:14:46.662446Z",
+                    "last_student_messaged_at": "2023-02-08T01:37:49.348207Z",
+                    "last_visited_at": "2023-06-27T18:28:52.321111Z",
+                    "user_status": "done",
+                    "number": 7
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "033cf5de-9260-4673-9504-0f11f74ca423",
+                    "name": "Оператор while",
+                    "status": "active",
+                    "video_duration": 560,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/1fQFC2zr-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:29:02.594425Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "3280c77e-edd3-4769-a389-0227fa1c48cd",
+                    "name": "Оператор continue в цикле while",
+                    "status": "active",
+                    "video_duration": 226,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/mUkGOHjm-a2.jpg",
+                    "materials_count": 0,
+                    "_order": 6,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:29:39.105130Z",
+                    "number": 6,
+                    "image": null
+                },
+                {
+                    "id": "365b0f9e-fae3-40dd-b4af-09fe37e6d289",
+                    "name": "Бесконечный цикл. Логический тип данных",
+                    "status": "active",
+                    "video_duration": 509,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/xC8nGab0-a1.jpg",
+                    "materials_count": 2,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:30:10.837930Z",
+                    "number": 4,
+                    "image": null
+                },
+                {
+                    "id": "4291f421-2873-43cf-8490-72410aaa96c5",
+                    "name": "Вебинар согласно расписанию текущего потока — 1 ак.ч.",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 8,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:30:43.318788Z",
+                    "number": 8,
+                    "image": null
+                },
+                {
+                    "id": "741b9dfa-e2f0-4198-a130-c2a9eed892b6",
+                    "name": "Прерывание цикла, оператор break",
+                    "status": "active",
+                    "video_duration": 583,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/JC3zrSSX-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:30:54.319595Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "8c39f73c-719c-4f70-8e59-dbab9b4282be",
+                    "name": "Цикл while со счётчиком",
+                    "status": "active",
+                    "video_duration": 388,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/PCUCwTuV-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:31:24.426271Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "a67e9ba2-3211-4993-9992-0851e3c09a93",
+                    "name": "Разбор домашнего задания",
+                    "status": "active",
+                    "video_duration": 651,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/AURFj9O6-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:31:49.041243Z",
+                    "number": 1,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 6,
+            "number": 6,
+            "release_date": null
+        },
+        {
+            "id": "3ab1c16b-cc7c-41e9-b5e2-9177fea40464",
+            "name": "Цикл For: циклы со счетчиком",
+            "homeworks": [
+                {
+                    "id": "83b9ef7f-a934-4aa9-8a99-4dfdb481d4ff",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 6,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-02-08T11:31:48.346656Z",
+                    "last_checked_at": "2023-02-09T08:43:57.404627Z",
+                    "last_teacher_messaged_at": "2023-02-09T08:43:57.404627Z",
+                    "last_student_messaged_at": "2023-02-08T11:31:48.346656Z",
+                    "last_visited_at": "2023-06-27T18:32:19.219750Z",
+                    "user_status": "done",
+                    "number": 6
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "3070f65a-c010-43a8-92d0-03beb82d189c",
+                    "name": "Цикл for. Работа со списком чисел",
+                    "status": "active",
+                    "video_duration": 422,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/o41SHQoe-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:32:29.596831Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "6deda012-3cb0-4839-ba74-4c761e39d1bf",
+                    "name": "Вебинар согласно расписанию текущего потока — 1 ак.ч.",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 0,
+                    "_order": 7,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:33:02.336325Z",
+                    "number": 7,
+                    "image": null
+                },
+                {
+                    "id": "90e3308d-a19c-4b0e-a230-09309be10ca1",
+                    "name": "Функция range с началом отсчета",
+                    "status": "active",
+                    "video_duration": 432,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/Ep30sDvD-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:33:15.282625Z",
+                    "number": 4,
+                    "image": null
+                },
+                {
+                    "id": "b071dacf-b422-4dca-b91e-e1e455f06988",
+                    "name": "Типовые алгоритмы со счётными циклами",
+                    "status": "active",
+                    "video_duration": 375,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/mTHIHj27-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-02-20T13:43:23.024009Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "dae0efe0-3808-421c-bd7d-44746acc6072",
+                    "name": "Функция range",
+                    "status": "active",
+                    "video_duration": 398,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/XmXZXBTt-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:34:10.072254Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "f018e903-b128-454d-8317-516f834854ad",
+                    "name": "Разбор домашнего задания",
+                    "status": "active",
+                    "video_duration": 477,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/wPCagYge-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T18:34:40.124212Z",
+                    "number": 1,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 7,
+            "number": 7,
+            "release_date": null
+        },
+        {
+            "id": "bfb8bab6-affb-489e-a3f0-19a103193741",
+            "name": "Цикл For: особенности работы с range",
+            "homeworks": [
+                {
+                    "id": "36a1ea67-194e-4fc1-bf36-d4b6a3054417",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 6,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-02-25T11:12:32.678262Z",
+                    "last_checked_at": "2023-02-26T04:51:25.089883Z",
+                    "last_teacher_messaged_at": "2023-02-26T04:51:25.089883Z",
+                    "last_student_messaged_at": "2023-02-25T11:12:32.678262Z",
+                    "last_visited_at": "2023-06-27T20:07:34.688630Z",
+                    "user_status": "done",
+                    "number": 6
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "024fae6c-7149-4443-80d7-6c7632c293c0",
+                    "name": "Функция range: start, stop, step",
+                    "status": "active",
+                    "video_duration": 670,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/O5TJWqkN-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:07:44.766274Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "076f3043-3395-4b6d-96b0-ff49bd4bcf72",
+                    "name": "Алгоритмические задачи со счётными циклами",
+                    "status": "active",
+                    "video_duration": 657,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/CbdMcOAK-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:07:55.241251Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "22b474bf-fca6-4040-93fb-7049d2e4ad54",
+                    "name": "Пользовательский ввод и функция range",
+                    "status": "active",
+                    "video_duration": 409,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/WzE1E9LY-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:08:36.701118Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "8c0e95c9-18e9-492f-ac2f-5e02236dd358",
+                    "name": "Разбор домашнего задания",
+                    "status": "active",
+                    "video_duration": 569,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/MiP9J6BV-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:09:11.887483Z",
+                    "number": 1,
+                    "image": null
+                },
+                {
+                    "id": "982032f8-5107-4fdd-8d7f-9d49bac947ca",
+                    "name": "Отрицательный шаг в функции range",
+                    "status": "active",
+                    "video_duration": 561,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/O9yJP6Kd-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:09:40.679298Z",
+                    "number": 4,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 8,
+            "number": 8,
+            "release_date": null
+        },
+        {
+            "id": "cdd0c9e8-e1ca-44cc-981a-12ee3b620302",
+            "name": "Цикл for: работа со строками",
+            "homeworks": [
+                {
+                    "id": "b20845ce-b94f-4026-9693-b9f9fb9cad9e",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 6,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-02-26T07:12:10.013496Z",
+                    "last_checked_at": "2023-02-26T07:40:24.855367Z",
+                    "last_teacher_messaged_at": "2023-02-26T07:40:24.855367Z",
+                    "last_student_messaged_at": "2023-02-26T07:12:10.013496Z",
+                    "last_visited_at": "2023-06-27T20:10:12.637110Z",
+                    "user_status": "done",
+                    "number": 6
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "205f5b15-9aac-4956-989c-7ad57a0df894",
+                    "name": "Разбор домашнего задания",
+                    "status": "active",
+                    "video_duration": 525,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/DQGqIxiF-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:10:22.844668Z",
+                    "number": 1,
+                    "image": null
+                },
+                {
+                    "id": "bb386627-e32f-454e-8f55-c062a0d81c42",
+                    "name": "Типовые алгоритмы работы со строками",
+                    "status": "active",
+                    "video_duration": 555,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/tFHKVr4B-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:10:55.186639Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "cb39acb4-bcdf-47b6-871a-2cd808624804",
+                    "name": "Дополнительные возможности функции print",
+                    "status": "active",
+                    "video_duration": 425,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/JncoFOLt-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:11:35.525813Z",
+                    "number": 4,
+                    "image": null
+                },
+                {
+                    "id": "cf11adaa-1cf7-4950-a5bc-de18f29bd1cc",
+                    "name": "Сравнение строк",
+                    "status": "active",
+                    "video_duration": 371,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/Msg7rJGK-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:12:05.541271Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "e5861a09-48d2-4b80-a657-9640319b5167",
+                    "name": "Цикл for: итерирование по строке",
+                    "status": "active",
+                    "video_duration": 486,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/2dpTRi5l-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:12:38.705409Z",
+                    "number": 3,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 9,
+            "number": 9,
+            "release_date": null
+        },
+        {
+            "id": "9ea8f4a8-ff64-4647-86e3-2ae61a16fe22",
+            "name": "Вложенные циклы",
+            "homeworks": [
+                {
+                    "id": "86cd963f-6f85-4a2a-8aa5-cb614ea7206e",
+                    "name": "Практическая работа",
+                    "status": "active",
+                    "video_duration": null,
+                    "video_preview": null,
+                    "materials_count": 2,
+                    "_order": 6,
+                    "lesson_type": "homework",
+                    "last_sent_at": "2023-03-06T17:03:22.182998Z",
+                    "last_checked_at": "2023-03-07T07:23:30.440812Z",
+                    "last_teacher_messaged_at": "2023-03-07T07:23:30.440812Z",
+                    "last_student_messaged_at": "2023-03-06T17:03:22.182998Z",
+                    "last_visited_at": "2023-06-27T20:13:13.143031Z",
+                    "user_status": "done",
+                    "number": 6
+                }
+            ],
+            "tests": [],
+            "videolessons": [
+                {
+                    "id": "2352d80c-f354-4b9f-9e25-952084f82a87",
+                    "name": "Работа с двумя счетчиками в условном операторе",
+                    "status": "active",
+                    "video_duration": 446,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/GgBdLRve-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 3,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:13:24.024606Z",
+                    "number": 3,
+                    "image": null
+                },
+                {
+                    "id": "574f1187-ba3d-487a-a03f-0b7ef498b2a1",
+                    "name": "Блок else для цикла. Бесконечный внешний цикл",
+                    "status": "active",
+                    "video_duration": 418,
+                    "video_preview": "https://bs-cdn.boomstream.com/balancer/SK13equG-a1.jpg",
+                    "materials_count": 0,
+                    "_order": 5,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:13:59.117750Z",
+                    "number": 5,
+                    "image": null
+                },
+                {
+                    "id": "6f61df62-f28d-451f-b364-fa9733724499",
+                    "name": "Работа со вложенными циклами",
+                    "status": "active",
+                    "video_duration": 465,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/2JcIDL02-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 1,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:14:33.586991Z",
+                    "number": 1,
+                    "image": null
+                },
+                {
+                    "id": "cbb2a71a-b839-4d17-ba67-02323f5284ef",
+                    "name": "Использование if во вложенных циклах",
+                    "status": "active",
+                    "video_duration": 394,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/5lVVa5ys-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 2,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:15:13.457822Z",
+                    "number": 2,
+                    "image": null
+                },
+                {
+                    "id": "e64f650b-47b1-40a9-8131-4876cd8c7a36",
+                    "name": "Решение задач с помощью вложенных циклов",
+                    "status": "active",
+                    "video_duration": 561,
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/KMmMkahu-a1.jpg",
+                    "materials_count": 1,
+                    "_order": 4,
+                    "lesson_type": "videolesson",
+                    "user_status": "done",
+                    "last_visited_at": "2023-06-27T20:15:41.033451Z",
+                    "number": 4,
+                    "image": null
+                }
+            ],
+            "longreads": [],
+            "p2p_tasks": [],
+            "no_code_graders": [],
+            "code_graders": [],
+            "access": {
+                "status": "open"
+            },
+            "_order": 10,
+            "number": 10,
+            "release_date": null
+        },
+        {
             "id": "fe0ea113-3980-42db-b55d-429e8cba1921",
             "name": "Числа int и float",
             "homeworks": [
@@ -22,7 +1164,7 @@
                     "last_checked_at": "2023-03-14T05:41:04.209458Z",
                     "last_teacher_messaged_at": "2023-03-14T05:41:04.209458Z",
                     "last_student_messaged_at": "2023-03-13T09:10:31.125349Z",
-                    "last_visited_at": "2023-03-14T07:11:16.010763Z",
+                    "last_visited_at": "2023-06-27T20:42:04.638197Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -39,7 +1181,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T20:42:14.798159Z",
                     "number": 4,
                     "image": null
                 },
@@ -53,7 +1195,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T20:42:55.595221Z",
                     "number": 3,
                     "image": null
                 },
@@ -67,7 +1209,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-11T12:58:03.072310Z",
+                    "last_visited_at": "2023-06-27T20:43:26.941751Z",
                     "number": 5,
                     "image": null
                 },
@@ -81,7 +1223,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-07T16:45:35.159562Z",
+                    "last_visited_at": "2023-06-27T20:43:46.165186Z",
                     "number": 2,
                     "image": null
                 },
@@ -95,7 +1237,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-04-21T06:14:48.739819Z",
+                    "last_visited_at": "2023-06-27T20:44:29.038219Z",
                     "number": 1,
                     "image": null
                 }
@@ -128,7 +1270,7 @@
                     "last_checked_at": "2023-03-15T04:31:02.365573Z",
                     "last_teacher_messaged_at": "2023-03-15T04:31:02.365573Z",
                     "last_student_messaged_at": "2023-03-14T07:12:00.389965Z",
-                    "last_visited_at": "2023-03-15T06:26:30.501151Z",
+                    "last_visited_at": "2023-06-27T20:45:15.789640Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -145,7 +1287,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-12T10:57:36.558834Z",
+                    "last_visited_at": "2023-06-27T20:45:26.335583Z",
                     "number": 4,
                     "image": null
                 },
@@ -159,7 +1301,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-13T09:15:57.891425Z",
+                    "last_visited_at": "2023-06-27T20:46:03.483453Z",
                     "number": 1,
                     "image": null
                 },
@@ -173,7 +1315,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-12T10:57:35.292985Z",
+                    "last_visited_at": "2023-06-27T20:46:28.158666Z",
                     "number": 2,
                     "image": null
                 },
@@ -187,7 +1329,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-14T07:12:11.897557Z",
+                    "last_visited_at": "2023-06-27T20:47:15.792146Z",
                     "number": 5,
                     "image": null
                 },
@@ -201,7 +1343,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-12T10:57:35.911800Z",
+                    "last_visited_at": "2023-06-27T20:47:54.196674Z",
                     "number": 3,
                     "image": null
                 }
@@ -234,7 +1376,7 @@
                     "last_checked_at": "2023-03-23T06:13:14.780499Z",
                     "last_teacher_messaged_at": "2023-03-23T06:13:14.780499Z",
                     "last_student_messaged_at": "2023-03-22T12:24:45.913737Z",
-                    "last_visited_at": "2023-05-13T10:03:16.960304Z",
+                    "last_visited_at": "2023-06-27T20:48:28.490966Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -251,7 +1393,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T20:48:39.240917Z",
                     "number": 5,
                     "image": null
                 },
@@ -265,7 +1407,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T20:49:09.478912Z",
                     "number": 4,
                     "image": null
                 },
@@ -279,7 +1421,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-20T05:42:42.835269Z",
+                    "last_visited_at": "2023-06-27T20:49:36.438158Z",
                     "number": 2,
                     "image": null
                 },
@@ -293,7 +1435,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-02T06:25:20.703902Z",
+                    "last_visited_at": "2023-06-27T20:50:11.448137Z",
                     "number": 1,
                     "image": null
                 },
@@ -307,7 +1449,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-03-20T05:51:58.961779Z",
+                    "last_visited_at": "2023-06-27T20:50:38.354251Z",
                     "number": 3,
                     "image": null
                 }
@@ -340,7 +1482,7 @@
                     "last_checked_at": "2023-05-07T04:49:39.694121Z",
                     "last_teacher_messaged_at": "2023-05-07T04:49:39.694121Z",
                     "last_student_messaged_at": "2023-05-06T11:41:53.683338Z",
-                    "last_visited_at": "2023-05-13T06:55:01.619066Z",
+                    "last_visited_at": "2023-06-27T20:51:08.806134Z",
                     "user_status": "done",
                     "number": 8
                 }
@@ -357,7 +1499,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-06T09:53:44.259691Z",
+                    "last_visited_at": "2023-06-27T20:51:19.963244Z",
                     "number": 3,
                     "image": null
                 },
@@ -371,7 +1513,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-13T10:13:38.320151Z",
+                    "last_visited_at": "2023-06-27T20:51:59.296297Z",
                     "number": 6,
                     "image": null
                 },
@@ -385,7 +1527,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-06T09:42:41.937051Z",
+                    "last_visited_at": "2023-06-27T20:52:32.749250Z",
                     "number": 2,
                     "image": null
                 },
@@ -399,7 +1541,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-06T11:35:33.628828Z",
+                    "last_visited_at": "2023-06-27T20:53:11.854451Z",
                     "number": 4,
                     "image": null
                 },
@@ -413,7 +1555,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-13T10:13:27.847905Z",
+                    "last_visited_at": "2023-06-27T20:53:42.321838Z",
                     "number": 5,
                     "image": null
                 },
@@ -475,7 +1617,7 @@
                     "last_checked_at": "2023-05-14T03:46:40.835732Z",
                     "last_teacher_messaged_at": "2023-05-14T03:46:40.835732Z",
                     "last_student_messaged_at": "2023-05-13T08:22:23.830477Z",
-                    "last_visited_at": "2023-05-17T03:39:26.384769Z",
+                    "last_visited_at": "2023-06-27T20:54:47.895985Z",
                     "user_status": "done",
                     "number": 5
                 }
@@ -492,7 +1634,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-13T09:49:51.628747Z",
+                    "last_visited_at": "2023-06-27T20:54:58.553302Z",
                     "number": 3,
                     "image": null
                 },
@@ -506,7 +1648,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-13T09:28:27.483663Z",
+                    "last_visited_at": "2023-06-27T20:55:38.450329Z",
                     "number": 1,
                     "image": null
                 },
@@ -520,7 +1662,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-16T19:11:27.126626Z",
+                    "last_visited_at": "2023-06-27T20:56:21.322064Z",
                     "number": 4,
                     "image": null
                 },
@@ -534,7 +1676,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-13T09:35:55.520264Z",
+                    "last_visited_at": "2023-06-27T20:56:55.898834Z",
                     "number": 2,
                     "image": null
                 }
@@ -567,7 +1709,7 @@
                     "last_checked_at": "2023-05-17T07:00:04.142114Z",
                     "last_teacher_messaged_at": "2023-05-17T07:00:04.142114Z",
                     "last_student_messaged_at": "2023-05-17T03:37:08.905688Z",
-                    "last_visited_at": "2023-05-17T10:53:32.660909Z",
+                    "last_visited_at": "2023-06-27T20:57:43.316018Z",
                     "user_status": "done",
                     "number": 5
                 }
@@ -584,7 +1726,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T20:57:54.379737Z",
                     "number": 3,
                     "image": null
                 },
@@ -598,7 +1740,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-13T10:02:27.410278Z",
+                    "last_visited_at": "2023-06-27T20:58:32.615144Z",
                     "number": 2,
                     "image": null
                 },
@@ -612,7 +1754,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-15T09:28:19.654932Z",
+                    "last_visited_at": "2023-06-27T20:59:22.593162Z",
                     "number": 1,
                     "image": null
                 },
@@ -626,7 +1768,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-17T03:38:43.010418Z",
+                    "last_visited_at": "2023-06-27T21:00:00.772968Z",
                     "number": 4,
                     "image": null
                 }
@@ -659,7 +1801,7 @@
                     "last_checked_at": "2023-05-19T07:55:09.132325Z",
                     "last_teacher_messaged_at": "2023-05-19T07:55:09.132325Z",
                     "last_student_messaged_at": "2023-05-19T02:41:00.760850Z",
-                    "last_visited_at": "2023-05-19T15:15:01.126784Z",
+                    "last_visited_at": "2023-06-27T21:00:43.109305Z",
                     "user_status": "done",
                     "number": 7
                 }
@@ -676,7 +1818,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-19T05:44:28.349080Z",
+                    "last_visited_at": "2023-06-27T21:00:54.102480Z",
                     "number": 6,
                     "image": null
                 },
@@ -690,7 +1832,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:01:10.980483Z",
                     "number": 5,
                     "image": null
                 },
@@ -704,7 +1846,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-18T21:07:30.151045Z",
+                    "last_visited_at": "2023-06-27T21:01:38.587638Z",
                     "number": 1,
                     "image": null
                 },
@@ -718,7 +1860,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-18T21:13:56.393247Z",
+                    "last_visited_at": "2023-06-27T21:02:11.222041Z",
                     "number": 2,
                     "image": null
                 },
@@ -732,7 +1874,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:02:38.795350Z",
                     "number": 4,
                     "image": null
                 },
@@ -746,7 +1888,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-18T21:19:09.909675Z",
+                    "last_visited_at": "2023-06-27T21:03:12.306739Z",
                     "number": 3,
                     "image": null
                 }
@@ -779,7 +1921,7 @@
                     "last_checked_at": "2023-05-20T05:45:27.296064Z",
                     "last_teacher_messaged_at": "2023-05-20T05:45:27.296064Z",
                     "last_student_messaged_at": "2023-05-20T05:23:23.695509Z",
-                    "last_visited_at": "2023-05-20T08:37:35.224643Z",
+                    "last_visited_at": "2023-06-27T21:03:44.143722Z",
                     "user_status": "done",
                     "number": 7
                 }
@@ -796,7 +1938,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T21:57:03.792883Z",
+                    "last_visited_at": "2023-06-27T21:03:55.156639Z",
                     "number": 1,
                     "image": null
                 },
@@ -810,7 +1952,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T15:38:40.601283Z",
+                    "last_visited_at": "2023-06-27T21:04:33.340070Z",
                     "number": 3,
                     "image": null
                 },
@@ -824,7 +1966,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T15:38:28.643400Z",
+                    "last_visited_at": "2023-06-27T21:05:19.211397Z",
                     "number": 2,
                     "image": null
                 },
@@ -838,7 +1980,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T11:49:19.947433Z",
+                    "last_visited_at": "2023-06-27T21:05:58.011162Z",
                     "number": 5,
                     "image": null
                 },
@@ -852,7 +1994,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T11:49:13.853358Z",
+                    "last_visited_at": "2023-06-27T21:06:27.960727Z",
                     "number": 4,
                     "image": null
                 }
@@ -900,7 +2042,7 @@
                     "last_checked_at": "2023-05-23T04:26:05.019493Z",
                     "last_teacher_messaged_at": "2023-05-23T04:26:05.019493Z",
                     "last_student_messaged_at": "2023-05-22T10:53:17.865638Z",
-                    "last_visited_at": "2023-05-23T06:16:24.857278Z",
+                    "last_visited_at": "2023-06-27T21:07:27.568099Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -917,7 +2059,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T13:10:53.193985Z",
+                    "last_visited_at": "2023-06-27T21:07:38.552901Z",
                     "number": 2,
                     "image": null
                 },
@@ -931,7 +2073,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T15:03:17.129420Z",
+                    "last_visited_at": "2023-06-27T21:08:17.572895Z",
                     "number": 4,
                     "image": null
                 },
@@ -945,7 +2087,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T13:10:52.349974Z",
+                    "last_visited_at": "2023-06-27T21:08:46.057540Z",
                     "number": 3,
                     "image": null
                 },
@@ -959,7 +2101,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-20T13:10:53.975807Z",
+                    "last_visited_at": "2023-06-27T21:09:20.521438Z",
                     "number": 1,
                     "image": null
                 },
@@ -973,7 +2115,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T06:16:29.514204Z",
+                    "last_visited_at": "2023-06-27T21:09:59.174677Z",
                     "number": 5,
                     "image": null
                 }
@@ -1006,7 +2148,7 @@
                     "last_checked_at": "2023-05-25T04:40:59.562785Z",
                     "last_teacher_messaged_at": "2023-05-25T04:40:59.562785Z",
                     "last_student_messaged_at": "2023-05-24T08:33:05.154875Z",
-                    "last_visited_at": "2023-05-25T08:49:17.717304Z",
+                    "last_visited_at": "2023-06-27T21:10:34.376373Z",
                     "user_status": "done",
                     "number": 9
                 }
@@ -1023,7 +2165,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T14:08:56.466248Z",
+                    "last_visited_at": "2023-06-27T21:10:45.463741Z",
                     "number": 2,
                     "image": null
                 },
@@ -1037,7 +2179,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T14:38:34.019867Z",
+                    "last_visited_at": "2023-06-27T21:11:19.786847Z",
                     "number": 6,
                     "image": null
                 },
@@ -1051,7 +2193,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T14:08:30.011866Z",
+                    "last_visited_at": "2023-06-27T21:11:49.247948Z",
                     "number": 1,
                     "image": null
                 },
@@ -1065,7 +2207,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T14:34:21.654195Z",
+                    "last_visited_at": "2023-06-27T21:12:16.010495Z",
                     "number": 5,
                     "image": null
                 },
@@ -1079,7 +2221,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T14:27:32.005924Z",
+                    "last_visited_at": "2023-06-27T21:12:42.637687Z",
                     "number": 4,
                     "image": null
                 },
@@ -1093,7 +2235,7 @@
                     "_order": 7,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-24T06:40:21.112884Z",
+                    "last_visited_at": "2023-06-27T21:13:13.005357Z",
                     "number": 7,
                     "image": null
                 },
@@ -1107,7 +2249,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-23T14:15:30.556007Z",
+                    "last_visited_at": "2023-06-27T21:13:28.352077Z",
                     "number": 3,
                     "image": null
                 }
@@ -1122,7 +2264,7 @@
                     "materials_count": 0,
                     "_order": 8,
                     "lesson_type": "longread",
-                    "user_status": null,
+                    "user_status": "start",
                     "last_visited_at": null,
                     "number": 8,
                     "image": null
@@ -1155,7 +2297,7 @@
                     "last_checked_at": "2023-05-26T05:19:19.081278Z",
                     "last_teacher_messaged_at": "2023-05-26T05:19:19.081278Z",
                     "last_student_messaged_at": "2023-05-25T16:14:39.572824Z",
-                    "last_visited_at": "2023-05-26T08:52:58.980909Z",
+                    "last_visited_at": "2023-06-27T21:14:08.504757Z",
                     "user_status": "done",
                     "number": 9
                 }
@@ -1172,7 +2314,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:14:18.873095Z",
                     "number": 1,
                     "image": null
                 },
@@ -1186,7 +2328,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:14:46.248233Z",
                     "number": 4,
                     "image": null
                 },
@@ -1200,7 +2342,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-25T10:35:32.903621Z",
+                    "last_visited_at": "2023-06-27T21:15:12.186930Z",
                     "number": 2,
                     "image": null
                 },
@@ -1214,7 +2356,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:15:51.901079Z",
                     "number": 6,
                     "image": null
                 },
@@ -1228,7 +2370,7 @@
                     "_order": 7,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:16:25.302905Z",
                     "number": 7,
                     "image": null
                 }
@@ -1243,7 +2385,7 @@
                     "materials_count": 0,
                     "_order": 8,
                     "lesson_type": "longread",
-                    "user_status": null,
+                    "user_status": "start",
                     "last_visited_at": null,
                     "number": 8,
                     "image": null
@@ -1304,7 +2446,7 @@
                     "last_checked_at": "2023-05-27T07:20:59.246145Z",
                     "last_teacher_messaged_at": "2023-05-27T07:20:59.246145Z",
                     "last_student_messaged_at": "2023-05-26T22:02:09.109914Z",
-                    "last_visited_at": "2023-05-28T15:12:27.211731Z",
+                    "last_visited_at": "2023-06-27T21:17:35.563629Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -1316,12 +2458,12 @@
                     "name": "Модуль os: генерация путей и метод listdir",
                     "status": "active",
                     "video_duration": 635,
-                    "video_preview": "https://bs-cdn.boomstream.com/balancer/h5UknVAX-a1.jpg",
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/h5UknVAX-a1.jpg",
                     "materials_count": 1,
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:17:45.872561Z",
                     "number": 1,
                     "image": null
                 },
@@ -1335,7 +2477,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:18:26.074923Z",
                     "number": 2,
                     "image": null
                 },
@@ -1363,7 +2505,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:19:17.735516Z",
                     "number": 3,
                     "image": null
                 },
@@ -1377,7 +2519,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:19:48.393257Z",
                     "number": 4,
                     "image": null
                 }
@@ -1427,7 +2569,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:20:40.532848Z",
                     "number": 1,
                     "image": null
                 },
@@ -1441,7 +2583,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-27T10:03:37.062888Z",
+                    "last_visited_at": "2023-06-27T21:21:38.420425Z",
                     "number": 3,
                     "image": null
                 },
@@ -1455,7 +2597,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-27T10:03:14.088968Z",
+                    "last_visited_at": "2023-06-27T21:22:11.305038Z",
                     "number": 2,
                     "image": null
                 },
@@ -1469,7 +2611,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-28T15:13:16.955334Z",
+                    "last_visited_at": "2023-06-27T21:22:58.006737Z",
                     "number": 5,
                     "image": null
                 },
@@ -1483,7 +2625,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-27T13:30:35.046839Z",
+                    "last_visited_at": "2023-06-27T21:23:27.207486Z",
                     "number": 4,
                     "image": null
                 }
@@ -1516,7 +2658,7 @@
                     "last_checked_at": "2023-05-31T04:58:03.674113Z",
                     "last_teacher_messaged_at": "2023-05-31T04:58:03.674113Z",
                     "last_student_messaged_at": "2023-05-30T18:26:55.294585Z",
-                    "last_visited_at": "2023-05-31T07:29:17.905587Z",
+                    "last_visited_at": "2023-06-27T21:24:04.710446Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -1533,7 +2675,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-15T17:03:28.111329Z",
+                    "last_visited_at": "2023-06-27T21:24:15.156215Z",
                     "number": 2,
                     "image": null
                 },
@@ -1547,7 +2689,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-14T22:00:43.473999Z",
+                    "last_visited_at": "2023-06-27T21:24:45.824560Z",
                     "number": 1,
                     "image": null
                 },
@@ -1561,7 +2703,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-29T17:26:40.148853Z",
+                    "last_visited_at": "2023-06-27T21:25:17.792258Z",
                     "number": 3,
                     "image": null
                 },
@@ -1575,7 +2717,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-29T22:28:15.496082Z",
+                    "last_visited_at": "2023-06-27T21:25:57.891935Z",
                     "number": 5,
                     "image": null
                 },
@@ -1589,7 +2731,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-29T22:27:58.708300Z",
+                    "last_visited_at": "2023-06-27T21:26:23.276986Z",
                     "number": 4,
                     "image": null
                 }
@@ -1622,7 +2764,7 @@
                     "last_checked_at": "2023-06-01T06:15:34.892259Z",
                     "last_teacher_messaged_at": "2023-06-01T06:15:34.892259Z",
                     "last_student_messaged_at": "2023-05-31T22:45:08.760019Z",
-                    "last_visited_at": "2023-06-01T13:25:37.598028Z",
+                    "last_visited_at": "2023-06-27T21:27:08.401168Z",
                     "user_status": "done",
                     "number": 7
                 }
@@ -1639,7 +2781,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:27:19.972218Z",
                     "number": 2,
                     "image": null
                 },
@@ -1653,7 +2795,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-31T13:04:55.544915Z",
+                    "last_visited_at": "2023-06-27T21:27:52.371456Z",
                     "number": 5,
                     "image": null
                 },
@@ -1667,7 +2809,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:28:30.383338Z",
                     "number": 3,
                     "image": null
                 },
@@ -1681,7 +2823,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-31T11:08:44.647085Z",
+                    "last_visited_at": "2023-06-27T21:29:06.139632Z",
                     "number": 4,
                     "image": null
                 },
@@ -1695,7 +2837,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-05-31T07:29:39.939835Z",
+                    "last_visited_at": "2023-06-27T21:29:41.762183Z",
                     "number": 1,
                     "image": null
                 }
@@ -1710,7 +2852,7 @@
                     "materials_count": 0,
                     "_order": 6,
                     "lesson_type": "longread",
-                    "user_status": null,
+                    "user_status": "start",
                     "last_visited_at": null,
                     "number": 6,
                     "image": null
@@ -1743,7 +2885,7 @@
                     "last_checked_at": "2023-06-03T04:52:57.705998Z",
                     "last_teacher_messaged_at": "2023-06-03T04:52:57.705998Z",
                     "last_student_messaged_at": "2023-06-02T07:51:30.181178Z",
-                    "last_visited_at": "2023-06-03T08:55:45.178234Z",
+                    "last_visited_at": "2023-06-27T21:30:25.290633Z",
                     "user_status": "done",
                     "number": 7
                 }
@@ -1765,7 +2907,7 @@
                         "correct_count": 3
                     },
                     "number": 3,
-                    "last_visited_at": "2023-06-01T11:08:15.234541Z"
+                    "last_visited_at": "2023-06-27T21:30:37.241548Z"
                 }
             ],
             "videolessons": [
@@ -1779,7 +2921,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-01T10:59:09.350097Z",
+                    "last_visited_at": "2023-06-27T21:30:47.068407Z",
                     "number": 2,
                     "image": null
                 },
@@ -1793,7 +2935,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-01T13:04:24.779344Z",
+                    "last_visited_at": "2023-06-27T21:31:14.656537Z",
                     "number": 5,
                     "image": null
                 },
@@ -1807,7 +2949,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-01T13:23:02.230595Z",
+                    "last_visited_at": "2023-06-27T21:31:42.887011Z",
                     "number": 6,
                     "image": null
                 },
@@ -1821,7 +2963,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-01T10:40:00.949552Z",
+                    "last_visited_at": "2023-06-27T21:32:11.965115Z",
                     "number": 1,
                     "image": null
                 },
@@ -1835,7 +2977,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-01T12:51:00.713358Z",
+                    "last_visited_at": "2023-06-27T21:32:46.295913Z",
                     "number": 4,
                     "image": null
                 }
@@ -1868,7 +3010,7 @@
                     "last_checked_at": "2023-06-04T06:10:19.819170Z",
                     "last_teacher_messaged_at": "2023-06-04T06:10:19.819170Z",
                     "last_student_messaged_at": "2023-06-03T21:47:11.028299Z",
-                    "last_visited_at": "2023-06-07T06:43:31.623813Z",
+                    "last_visited_at": "2023-06-27T21:33:19.049747Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -1885,7 +3027,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-03T17:43:29.349561Z",
+                    "last_visited_at": "2023-06-27T21:33:29.358225Z",
                     "number": 3,
                     "image": null
                 },
@@ -1899,7 +3041,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:34:01.012991Z",
                     "number": 1,
                     "image": null
                 },
@@ -1913,7 +3055,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-03T17:58:06.794293Z",
+                    "last_visited_at": "2023-06-27T21:34:38.446171Z",
                     "number": 4,
                     "image": null
                 },
@@ -1927,7 +3069,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-03T17:09:36.572667Z",
+                    "last_visited_at": "2023-06-27T21:35:09.812195Z",
                     "number": 2,
                     "image": null
                 },
@@ -1941,7 +3083,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-03T18:18:30.823886Z",
+                    "last_visited_at": "2023-06-27T21:35:44.343297Z",
                     "number": 5,
                     "image": null
                 }
@@ -1974,7 +3116,7 @@
                     "last_checked_at": "2023-06-06T03:56:04.518526Z",
                     "last_teacher_messaged_at": "2023-06-06T03:56:04.518526Z",
                     "last_student_messaged_at": "2023-06-05T07:15:59.977879Z",
-                    "last_visited_at": "2023-06-07T06:47:51.610321Z",
+                    "last_visited_at": "2023-06-27T21:36:07.020983Z",
                     "user_status": "done",
                     "number": 8
                 }
@@ -1996,7 +3138,7 @@
                         "correct_count": 0
                     },
                     "number": 3,
-                    "last_visited_at": "2023-06-04T10:46:02.258355Z"
+                    "last_visited_at": "2023-06-27T21:36:18.469058Z"
                 }
             ],
             "videolessons": [
@@ -2010,7 +3152,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-04T10:47:23.413349Z",
+                    "last_visited_at": "2023-06-27T21:36:28.845651Z",
                     "number": 4,
                     "image": null
                 },
@@ -2038,7 +3180,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:37:23.861319Z",
                     "number": 6,
                     "image": null
                 },
@@ -2052,7 +3194,7 @@
                     "_order": 7,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-04T13:17:15.497904Z",
+                    "last_visited_at": "2023-06-27T21:37:49.555746Z",
                     "number": 7,
                     "image": null
                 },
@@ -2066,7 +3208,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-07T12:32:05.162821Z",
+                    "last_visited_at": "2023-06-27T21:38:13.455240Z",
                     "number": 2,
                     "image": null
                 },
@@ -2080,7 +3222,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:38:43.703799Z",
                     "number": 5,
                     "image": null
                 }
@@ -2113,7 +3255,7 @@
                     "last_checked_at": "2023-06-08T07:15:26.699028Z",
                     "last_teacher_messaged_at": "2023-06-08T07:15:26.699028Z",
                     "last_student_messaged_at": "2023-06-08T06:53:17.061559Z",
-                    "last_visited_at": "2023-06-10T09:50:18.429157Z",
+                    "last_visited_at": "2023-06-27T21:39:13.452381Z",
                     "user_status": "done",
                     "number": 6
                 }
@@ -2125,12 +3267,12 @@
                     "name": "Декоратор context manager",
                     "status": "active",
                     "video_duration": 424,
-                    "video_preview": "https://bs-cdn.boomstream.com/balancer/1L5u6jdM-a1.jpg",
+                    "video_preview": "https://cdn-g.boomstream.com/balancer/1L5u6jdM-a1.jpg",
                     "materials_count": 1,
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-07T18:21:05.248823Z",
+                    "last_visited_at": "2023-06-27T21:39:23.387500Z",
                     "number": 2,
                     "image": null
                 },
@@ -2144,7 +3286,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-07T12:31:47.392284Z",
+                    "last_visited_at": "2023-06-27T21:39:56.002382Z",
                     "number": 1,
                     "image": null
                 },
@@ -2158,7 +3300,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-08T06:52:11.896325Z",
+                    "last_visited_at": "2023-06-27T21:40:27.048268Z",
                     "number": 4,
                     "image": null
                 },
@@ -2172,7 +3314,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-08T06:52:19.836165Z",
+                    "last_visited_at": "2023-06-27T21:41:03.910655Z",
                     "number": 3,
                     "image": null
                 },
@@ -2186,7 +3328,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-10T09:50:20.527652Z",
+                    "last_visited_at": "2023-06-27T21:41:33.358051Z",
                     "number": 5,
                     "image": null
                 }
@@ -2219,7 +3361,7 @@
                     "last_checked_at": "2023-06-10T04:20:59.817597Z",
                     "last_teacher_messaged_at": "2023-06-10T04:20:59.817597Z",
                     "last_student_messaged_at": "2023-06-09T18:29:19.877916Z",
-                    "last_visited_at": "2023-06-10T14:07:26.053226Z",
+                    "last_visited_at": "2023-06-27T21:41:58.875849Z",
                     "user_status": "done",
                     "number": 7
                 }
@@ -2241,7 +3383,7 @@
                         "correct_count": 1
                     },
                     "number": 3,
-                    "last_visited_at": "2023-06-09T17:45:36.035553Z"
+                    "last_visited_at": "2023-06-27T21:42:10.004841Z"
                 }
             ],
             "videolessons": [
@@ -2255,7 +3397,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-10T09:50:44.475114Z",
+                    "last_visited_at": "2023-06-27T21:42:21.658765Z",
                     "number": 5,
                     "image": null
                 },
@@ -2269,7 +3411,7 @@
                     "_order": 1,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:42:57.855208Z",
                     "number": 1,
                     "image": null
                 },
@@ -2283,7 +3425,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-10T09:50:46.761072Z",
+                    "last_visited_at": "2023-06-27T21:43:34.282165Z",
                     "number": 4,
                     "image": null
                 },
@@ -2297,7 +3439,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-09T17:40:57.017195Z",
+                    "last_visited_at": "2023-06-27T21:44:01.115280Z",
                     "number": 2,
                     "image": null
                 },
@@ -2311,7 +3453,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": "2023-06-10T09:50:41.951583Z",
+                    "last_visited_at": "2023-06-27T21:44:31.684087Z",
                     "number": 6,
                     "image": null
                 }
@@ -2344,7 +3486,7 @@
                     "last_checked_at": null,
                     "last_teacher_messaged_at": null,
                     "last_student_messaged_at": null,
-                    "last_visited_at": "2023-06-19T08:08:17.875403Z",
+                    "last_visited_at": "2023-06-27T21:44:59.433590Z",
                     "user_status": "done",
                     "number": 8
                 }
@@ -2361,7 +3503,7 @@
                     "_order": 4,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:45:10.839409Z",
                     "number": 4,
                     "image": null
                 },
@@ -2375,7 +3517,7 @@
                     "_order": 2,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:45:47.034108Z",
                     "number": 2,
                     "image": null
                 },
@@ -2389,7 +3531,7 @@
                     "_order": 7,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:46:16.994234Z",
                     "number": 7,
                     "image": null
                 },
@@ -2403,7 +3545,7 @@
                     "_order": 3,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:47:17.486527Z",
                     "number": 3,
                     "image": null
                 },
@@ -2417,7 +3559,7 @@
                     "_order": 6,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:47:53.130648Z",
                     "number": 6,
                     "image": null
                 },
@@ -2445,7 +3587,7 @@
                     "_order": 5,
                     "lesson_type": "videolesson",
                     "user_status": "done",
-                    "last_visited_at": null,
+                    "last_visited_at": "2023-06-27T21:49:20.016145Z",
                     "number": 5,
                     "image": null
                 }

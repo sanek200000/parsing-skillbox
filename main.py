@@ -1,18 +1,19 @@
-from connect_skillbox import authentication
+from connect_skillbox import authentication, is_auth
 from work_with_files import json_to_dict, clear_module_name, add_dir, make_url, get_lessons_list, get_lessons
 from connect_wire import wire_connection
 
 if __name__ == '__main__':
     base_url = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/'
-    module_json = './trees/Модуль Система контроля версий Git.json'
+    module_json = './trees/Модуль Python Basic.json'
     source_path = r"./sources/"
 
     try:
         # Зайти на страницу авторизации
         driver = wire_connection(base_url)
 
-        # Авторизоваться
-        authentication(driver)
+        if is_auth(driver):
+            # Авторизоваться
+            authentication(driver)
     except Exception as ex:
         print(ex)
 
@@ -44,7 +45,7 @@ if __name__ == '__main__':
         count = 100
         for topic in topics:
             try:
-                topic_name = topic.get('name')
+                topic_name = clear_module_name(topic.get('name'))
                 topic_num = topic.get('number')
             except Exception as ex:
                 topic_name = 'Unknown topic' + str(count)
@@ -59,3 +60,7 @@ if __name__ == '__main__':
             # Прогходим по каждому уроку в списке
             if len(lessons_list) > 0:
                 get_lessons(lessons_list, slug_url, topic_path, driver)
+
+    driver.close()
+    driver.quit()
+    print('Done! '*10)

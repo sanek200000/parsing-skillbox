@@ -7,6 +7,7 @@ temp*
 *.mp4
 cookies
 sources
+selenium
 
 # C extensions
 *.so
