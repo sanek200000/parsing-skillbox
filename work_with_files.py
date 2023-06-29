@@ -137,10 +137,10 @@ def get_lessons(lessons_list, slug_url, module_path, driver) -> None:
             # save_page(driver, lesson_path)
 
             # Делаем скриншот
-            take_screenshot(driver, lesson_path)
+            # take_screenshot(driver, lesson_path)
 
             # Качаем видео, если оно есть на странице
             # save_video(driver, lesson_path, lesson_url)
 
             # Сохраняем доп.материалы, если они есть
-            # save_additional_materials(driver, lesson_path, lesson_url)
+            save_additional_materials(driver, lesson_path, lesson_url)

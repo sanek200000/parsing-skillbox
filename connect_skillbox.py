@@ -64,7 +64,7 @@ def take_screenshot(driver, path) -> None:
     height = driver.execute_script(
         "return Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);")
     print('Высота страницы:', height)
-    # height = 6000
+    height = 6000
     driver.set_window_size(1920, height)
     element = driver.find_element(By.TAG_NAME, 'body')
     element.screenshot(path + "screenshot.png")
