@@ -1,7 +1,10 @@
 import json
 import os
 import regex
-from connect_skillbox import save_page, save_video, save_additional_materials, take_screenshot
+from connect_skillbox import (save_page, save_video,
+                              save_additional_materials, take_screenshot)
+from connect_skillbox import authentication, is_auth
+from connect_wire import wire_connection
 from time import sleep
 
 
@@ -107,7 +110,7 @@ def get_lessons_list(topic: dict) -> list:
     return res
 
 
-def get_lessons(lessons_list, slug_url, module_path, driver) -> None:
+def get_lessons(lessons_list, slug_url, module_path) -> None:
     for lesson in lessons_list:
         id = lesson.get('id')
         number = lesson.get('number')
@@ -126,9 +129,17 @@ def get_lessons(lessons_list, slug_url, module_path, driver) -> None:
             # Переходим на страницу, ждем 10 сек.
             while True:
                 try:
+                    # Зайти на страницу урока
+                    driver = wire_connection(lesson_path)
+
                     print(f'driver.get({lesson_url})')
                     driver.get(lesson_url)
                     sleep(10)
+
+                    # if is_auth(driver):
+                    # Авторизоваться, если куки не сроботали
+                    # authentication(driver)
+
                     break
                 except Exception as ex:
                     print('!'*100, ex, sep='\n')
@@ -136,11 +147,16 @@ def get_lessons(lessons_list, slug_url, module_path, driver) -> None:
             # Сохраняем страницу
             # save_page(driver, lesson_path)
 
-            # Делаем скриншот
-            # take_screenshot(driver, lesson_path)
-
             # Качаем видео, если оно есть на странице
             # save_video(driver, lesson_path, lesson_url)
 
             # Сохраняем доп.материалы, если они есть
             save_additional_materials(driver, lesson_path, lesson_url)
+
+            # Делаем скриншот
+            take_screenshot(driver, lesson_path)
+
+            # Закрываем браузер
+            driver.close()
+            driver.quit()
+            print('\n'*3)

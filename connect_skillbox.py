@@ -61,9 +61,8 @@ def take_screenshot(driver, path) -> None:
     Returns:
         _type_: _description_
     """
-    height = driver.execute_script(
-        "return Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);")
-    print('Высота страницы:', height)
+    # height = driver.execute_script("return Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);")
+    # print('Высота страницы:', height)
     height = 6000
     driver.set_window_size(1920, height)
     element = driver.find_element(By.TAG_NAME, 'body')
@@ -173,20 +172,17 @@ def save_additional_materials(driver, lesson_path, lesson_url):
         print('На этой странице нечего скачивать')
         materials_card = None
 
-    # options.add_experimental_option("prefs", {"download.default_directory": r"C:\Data_Files\output_files" })
-
     while materials_card:
         try:
-            download_directory(driver, lesson_path, lesson_url)
-
             materials_card_button = driver.find_element(
                 By.XPATH, '//button[text()=" Скачать все "]')
 
             if materials_card_button:
                 materials_card_button.click()
-                print('!!!!!!!', driver.options.experimental_options)
                 sleep(10)
                 materials_card = False
+                print('Закачка произведена.')
+
         except:
             print('Не вижу кнопку, а она есть!')
             driver.refresh()

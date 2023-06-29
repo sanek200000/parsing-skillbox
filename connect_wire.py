@@ -5,13 +5,14 @@ from time import sleep
 import os
 
 
-def wire_connection(url):
+def wire_connection(lesson_path):
     options = webdriver.ChromeOptions()
     options.add_argument("--headless=new")
     # options.add_argument('--incognito')
-    
-    #path = 'C:\\Users\\heist\\PycharmProjects\\parsing_skillbox\\sources\\Итоговая аттестация по программе профессиональной \\1.Итоговая аттестация по программе профессиональной \\1.Описание итоговой аттестации\\'
-    #options.add_experimental_option("prefs", {"download.default_directory": f'{path}'})
+
+    path = os.path.abspath(lesson_path)
+    options.add_experimental_option(
+        "prefs", {"download.default_directory": f'{path}'})
 
     options.add_argument(f'user-data-dir={os.getcwd()}/selenium')
     options.add_argument("start-maximized")
@@ -29,18 +30,7 @@ def wire_connection(url):
         '''
     })
 
-    # stealth(driver,
-    #        languages=["ru-RU", "ru"],
-    #        vendor="Google Inc.",
-    #        platform="Win32",
-    #        webgl_vendor="Intel Inc.",
-    #        renderer="Intel Iris OpenGL Engine",
-    #        fix_hairline=True,
-    #        )
-
-    driver.get(url)
-    sleep(10)
-
+    print('!!!!!!!', driver.options.experimental_options)
     return driver
 
 
