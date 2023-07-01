@@ -1,11 +1,16 @@
 import json
 import os
 import regex
-from connect_skillbox import (save_page, save_video,
-                              save_additional_materials, take_screenshot)
 from connect_skillbox import authentication, is_auth
 from connect_wire import wire_connection
 from time import sleep
+from connect_skillbox import (
+    save_page,
+    save_video,
+    connect_timeout,
+    save_additional_materials,
+    take_screenshot
+)
 
 
 def json_to_dict(dictjson: str) -> dict:
@@ -134,7 +139,6 @@ def get_lessons(lessons_list, slug_url, module_path) -> None:
 
                     print(f'driver.get({lesson_url})')
                     driver.get(lesson_url)
-                    sleep(10)
 
                     # if is_auth(driver):
                     # Авторизоваться, если куки не сроботали
@@ -144,17 +148,20 @@ def get_lessons(lessons_list, slug_url, module_path) -> None:
                 except Exception as ex:
                     print('!'*100, ex, sep='\n')
 
+            element = connect_timeout(driver)
+            print('element = ', element)
+
             # Сохраняем страницу
-            # save_page(driver, lesson_path)
+            save_page(driver, lesson_path)
 
             # Качаем видео, если оно есть на странице
-            # save_video(driver, lesson_path, lesson_url)
+            save_video(driver, lesson_path, lesson_url)
 
             # Сохраняем доп.материалы, если они есть
             save_additional_materials(driver, lesson_path, lesson_url)
 
             # Делаем скриншот
-            take_screenshot(driver, lesson_path)
+            take_screenshot(driver, element, lesson_path)
 
             # Закрываем браузер
             driver.close()

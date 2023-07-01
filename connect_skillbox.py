@@ -8,6 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium_stealth import stealth
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 
 from connect_wire import wire_connection
 from parse_m3u8 import get_chunk_m3u8, parse_m3u8
@@ -50,7 +52,7 @@ def save_page(driver, path) -> None:
                 f'Страница сохранена в файл {filename}')
 
 
-def take_screenshot(driver, path) -> None:
+def take_screenshot(driver, element, path) -> None:
     """
     Функция сохраняет скриншот страницыы
 
@@ -61,9 +63,11 @@ def take_screenshot(driver, path) -> None:
     Returns:
         _type_: _description_
     """
-    # height = driver.execute_script("return Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);")
-    # print('Высота страницы:', height)
-    height = 6000
+    #element = driver.find_element(By.CLASS_NAME, "footer")
+    height = driver.execute_script("return arguments[0].offsetTop;", element)
+    if height < 1500:
+        height = 1500
+    
     driver.set_window_size(1920, height)
     element = driver.find_element(By.TAG_NAME, 'body')
     element.screenshot(path + "screenshot.png")
@@ -192,27 +196,78 @@ def save_additional_materials(driver, lesson_path, lesson_url):
     print('materials_card = ', materials_card)
 
 
+def connect_timeout(driver):
+    """
+    Проверяем, появился ли footer на странице
+
+    Args:
+        driver (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    timeout = 2  # Время ожидания в секундах
+    interval = 5  # Интервал между попытками в секундах
+       
+    while True:
+        try:
+            element = WebDriverWait(driver, timeout, interval).until(lambda d: d.find_element(By.CLASS_NAME, "footer"))
+            break
+        except TimeoutException:
+            print("Элемент не найден после ожидания в течение", timeout, "секунд")
+        
+    #try:
+    #    element = WebDriverWait(driver, timeout, interval).until(
+    #        EC.presence_of_element_located((By.CLASS_NAME, "footer"))
+    #    )
+    #except TimeoutException:
+    #    print("Элемент не найден после ожидания в течение", timeout, "секунд")
+
+    return element
+
 if __name__ == '__main__':
-    url = 'https://go.skillbox.ru/auth/sign-in'
+    url = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/dpo-python-basic/ed6c2fbd-ad1f-4dba-8cec-9292918292b7/homework'
     base_url = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/'
     # url = 'https://habr.com/ru/companies/otus/articles/596071/'
     # url2 = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/dpo-django-framework/f006f924-a90e-4b84-839f-2d6f0f1f26bf/videolesson'
 
     try:
-        driver = connection(base_url)
+        driver = connection(url)
         sleep(5)
+
+        '''размер страницы в пикселях'''
+        element = driver.find_element(By.CLASS_NAME, "footer")
+        print('element = ', element, '\n')
+
+        height1 = driver.execute_script(
+            "return document.documentElement.scrollHeight;")
+        height2 = driver.execute_script("return document.body.scrollHeight;")
+        height3 = driver.execute_script("return document.body.offsetHeight;")
+        height4 = driver.execute_script(
+            "return document.documentElement.clientHeight")
+        height5 = driver.execute_script(
+            "return document.documentElement.offsetHeight")
+        height6 = driver.execute_script(
+            "return arguments[0].offsetTop;", element)
+
+        print('document.documentElement.scrollHeight = ', height1)
+        print('document.body.scrollHeight = ', height2)
+        print('document.body.offsetHeight = ', height3)
+        print('document.documentElement.clientHeight = ', height4)
+        print('document.documentElement.offsetHeight = ', height5)
+        print('rguments[0].offsetTop = ', height6)
 
         '''аунтетификация'''
         # authentication(driver)
         # sleep(5)
 
         '''add argument'''
-        driver.options.add_experimental_option(
-            "prefs",
-            {"download.default_directory": f'{os.getcwd()}'}
-        )
-        print(driver.options.experimental_options)
-        driver.refresh()
+        # driver.options.add_experimental_option(
+        #    "prefs",
+        #    {"download.default_directory": f'{os.getcwd()}'}
+        # )
+        # print(driver.options.experimental_options)
+        # driver.refresh()
 
         '''get playlist'''
         # driver.get('https://go.skillbox.ru/profession/professional-retraining-python-developer/final-examination-dpo-python-developer/154a84bc-0f6a-4f3e-8663-30ff658b66b1/homework')

@@ -7,16 +7,6 @@ if __name__ == '__main__':
     module_json = './trees/Модуль Язык запросов SQL.json'
     source_path = r"./sources/"
 
-    # try:
-    #    # Зайти на страницу авторизации
-    #    driver = wire_connection(base_url)
-
-    #    if is_auth(driver):
-    #        # Авторизоваться
-    #        authentication(driver)
-    # except Exception as ex:
-    #    print(ex)
-
     # Создать словарь из json модуля
     try:
         module_dict = json_to_dict(module_json)
@@ -61,6 +51,4 @@ if __name__ == '__main__':
             if len(lessons_list) > 0:
                 get_lessons(lessons_list, slug_url, topic_path)
 
-    # driver.close()
-    # driver.quit()
     print('\n', '--DONE--'*20)

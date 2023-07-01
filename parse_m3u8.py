@@ -1,7 +1,5 @@
 import os.path
 import shutil
-from Crypto.Util.Padding import unpad
-from Crypto.Protocol.KDF import PBKDF2
 import requests
 from Crypto.Util.Padding import pad
 from Crypto.Cipher import AES
@@ -66,12 +64,12 @@ def get_chunk_m3u8(req):
 
 if __name__ == '__main__':
     # url = sys.argv[1]
-    url = 'https://cdn-g-skb-m4.boomstream.com/vod/hash:e8f22940ae47e89857332a0b898957b2/id:12985.14487.760926.39654071.75377.hls/time:0/data:eyJ2ZXJzaW9uIjoiMS4yLjg1IiwidXNlX2RpcmVjdF9saW5rcyI6InllcyIsImlzX2VuY3J5cHQiOiJ5ZXMifQ==/m65/2022/08/05/omvuSbz8.mp4/chunklist.m3u8'
-    password = '17bb96ba-3220-4874-b609-2ea245887c63'
-    key = PBKDF2(password, b'r4kIvQ47FFUWgqoP', dkLen=128)
-    blob = 'blob:https://go.skillbox.ru/17bb96ba-3220-4874-b609-2ea245887c63'
-    key = b'r4kIvQ47FFUWgqoP'
-    print(key)
+    base_url = 'https://go.skillbox.ru/profession/professional-retraining-python-developer/'
+    id = 'b071dacf-b422-4dca-b91e-e1e455f06988' + '/'
+    lesson_type = 'videolesson' + '/'
 
-    result = parse_m3u8(url, key, './videolesson.mp4')
+    url_m3u8 = 'https://cdn-g-skb-m6.boomstream.com/vod/hash:a1caaa93d1737470249f1f8d115ef4d3/id:12985.14487.715010.37442073.75377.hls/time:0/data:eyJ2ZXJzaW9uIjoiMS4yLjg1IiwidXNlX2RpcmVjdF9saW5rcyI6InllcyIsImlzX2VuY3J5cHQiOiJ5ZXMifQ==/m54/2022/03/19/wG302xv2.mp4/chunklist.m3u8'
+    key = b'mKJPRJZ9YTjXRRBV'
+
+    result = parse_m3u8(url_m3u8, key, './videolesson.mp4')
     # download_m3u8(result)
